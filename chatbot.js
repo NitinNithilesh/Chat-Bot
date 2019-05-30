@@ -93,5 +93,5 @@ exports.onHttpResponse = HttpResponseHandler;
 exports.onDbGet = DbGetHandler;
 exports.onDbPut = DbPutHandler;
 if (typeof LocationHandler == 'function') { exports.onLocation = LocationHandler; }
-if (typeof HttpEndpointHandler == 'function') { exports.onHttpEndpoint = HttpEndpointHandler; }
+if (typeof HttpEndpointHandler == 'function') { exports.onHttpEndpoint = HttpEndpointHandler; 
 
